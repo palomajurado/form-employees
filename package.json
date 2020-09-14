@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "homepage": "http://palomajurado.github.io/form-employees",
   "scripts": {
-    "predeploy": "npm run build",
+    "predeploy": "npm run build --base-href=/form-employees/",
     "deploy": "gh-pages -d dist/simple-crud-angular",
     "ng": "ng",
     "start": "ng serve",
